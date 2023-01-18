@@ -60,6 +60,7 @@ $(document).ready(function () {
     let id = check.checked;
     if (id == true) {
       location.href = "lang/es/index.html";
+      $(".projects").addClass(".es");
     } else {
       location.href = "../../index.html";
     }
